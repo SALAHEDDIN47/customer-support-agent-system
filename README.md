@@ -1,4 +1,4 @@
-# 🛍️ Customer Support Agent System
+# 🛍️ Customer Support Agents System
  
 A fully local, multi-agent customer support system built with **LangGraph** and **Qwen2.5:14b** (via Ollama).
 No API keys, no cloud calls — everything runs on your machine.
