@@ -1,0 +1,23 @@
+[project]
+name = "customer-support-agent-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SALAHEDDIN47", email = "salaheddinejalloul538@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-community",
+    "langchain-ollama",
+    "langgraph",
+]
+
+[project.scripts]
+customer-support-agent-system = "customer_support_agent_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+[tool.uv]
+package = false
